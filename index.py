@@ -1,6 +1,6 @@
 import random
 
-options = ['Rock', 'Paper', 'Scissors']
+options = ['Rock', 'Paper', 'Scissor']
 
 def printOptions():
     print("Rock Paper Scissor Game!")
