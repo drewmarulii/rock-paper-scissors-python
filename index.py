@@ -4,9 +4,9 @@ options = ['Rock', 'Paper', 'Scissors']
 
 def printOptions():
     print("Rock Paper Scissor Game!")
-    print("1) Rock")
-    print("2) Paper")
-    print("3) Scissor")
+    print("________________________")
+    for i in range(len(options)):
+        print(f'{i+1}) {options[i]}')
 
 def get_option():
     user_action = input("Enter a Choice : ")
